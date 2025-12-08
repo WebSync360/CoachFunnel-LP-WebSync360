@@ -1,0 +1,26 @@
+{
+  "name": "coachfunnel-lp-websync360",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackquantum1-max/CoachFunnel-LP-WebSync360.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stackquantum1-max/CoachFunnel-LP-WebSync360/issues"
+  },
+  "homepage": "https://github.com/stackquantum1-max/CoachFunnel-LP-WebSync360#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.3.3"
+  }
+}
